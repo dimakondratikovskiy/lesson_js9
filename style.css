@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #77CCAD;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    background-color: #e9e9e9;
+    border: 4px solid #a9a9a9;
+    border-radius: 8px;
+}
+.container p:first-child {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #a9a9a9;
+    color: #77CCAD;
+}
+.container .block {
+    display: flex;
+    justify-content: center;
+}
+#text {
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px 0;
+    width: 400px;
+    outline: none;
+    text-align: center;
+    border: 1px solid #a9a9a9;
+    color: #77CCAD;
+}
+.container input::placeholder {
+    color: #77CCAD;
+}
+.list li {
+    font-size: 20px;
+    margin-left: 20px;
+    list-style: none;
+    color: #77CCAD;
+    width: 455px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a9a9a9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list li p {
+    width: 400px;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 5px 0;
+    border: none;
+    outline: none;
+}
+.checked p {
+    transition: all 0.7s ease;
+    text-decoration: line-through;
+    color: #a9a9a9;
+}
+.fa-pencil {
+    font-size: 20px;
+}
+.fa-trash-o {
+    font-size: 20px;
+    padding-left: 5px;
+}
+.fa-trash-o:hover,
+.fa-pencil:hover {
+    transition: color 0.2s linear;
+    color: #a9a9a9;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.save,
+.reset {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #a9a9a9;
+    color: #77CCAD;
+    border-radius: 8px;
+    margin: 15px;
+}
+.save:hover,
+.reset:hover {
+    transition: all 0.7s ease;
+    background-color: #77CCAD;
+    color: #a9a9a9;
+}
